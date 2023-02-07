@@ -2,7 +2,7 @@ package point
 
 import (
 	"log"
-	"heiro/pkg/point/cache"
+	"point/cache"
 )
 
 var DEBUG = false
