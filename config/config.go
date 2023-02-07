@@ -15,8 +15,8 @@ type config struct {
 	ParserIndexedDuration 		  int64   	 `json:"PARSER_INDEXED_DURATION"`
 	
 	ParserSkipMessages      	  []string 	 `json:"PARSER_SKIP_MESSAGES"`
-	ParserSkipUsers				  []string	 `json:"PARSER_SKIP_USERS"`
-	ParserSkipWords 			  []string	 `json:"PARSER_SKIP_WORDS"`
+	ParserSkipUsers			  []string	 `json:"PARSER_SKIP_USERS"`
+	ParserSkipWords 	          []string	 `json:"PARSER_SKIP_WORDS"`
 
 	MessageStoreTime        	  int64		 `json:"MESSAGE_STORE_TIME"`
 
