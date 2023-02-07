@@ -10,7 +10,7 @@ var Config *config
 
 type config struct {
 
-	ChannelEmotesRefreshMaxRange  int 	 	 `json:"CHANNEL_EMOTES_REFRESH_MAX_RANGE"`
+	ChannelEmotesRefreshMaxRange  	  int 	 	 `json:"CHANNEL_EMOTES_REFRESH_MAX_RANGE"`
 
 	ParserIndexedDuration 		  int64   	 `json:"PARSER_INDEXED_DURATION"`
 	
