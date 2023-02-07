@@ -17,7 +17,7 @@ func (p *ptr) Query(i interface{}) error {
 		return err
 	}
 	if DEBUG {
-		log.Println(">>>---BEBUG--->>>")
+		log.Println(">>>---BEBUG-------====>>>")
 		log.Println(i, err)
 		log.Println(">>>---BEBUG--->>>")
 	}
