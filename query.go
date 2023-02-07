@@ -18,11 +18,7 @@ func (p *ptr) Query(i interface{}) error {
 	}
 	if DEBUG {
 		log.Println("------------------->>>")
-		log.Println("------------------->>>")
-		log.Println("------------------->>>")
 		log.Println(i, err)
-		log.Println("------------------->>>")
-		log.Println("------------------->>>")
 		log.Println("------------------->>>")
 	}
 	p.SetCached(i)
